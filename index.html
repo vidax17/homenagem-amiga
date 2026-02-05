@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uma Pessoa Especial</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #333;
+    }
+    header {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+    }
+    header p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Que bom de ter conhecido a senhora</h1>
+    <p>
+      Eu criei esse site especialmente para Você
+      e esta aqui as suas fotos sua bicha linda do cacete
+    </p>
+  </header>
+
+  <section class="gallery">
+    <!-- Substitua os arquivos abaixo pelas fotos da sua amiga -->
+    <img src="foto1.jpg" alt="" />
+    <img src="foto2.jpg" alt="" />
+    <img src="foto3.jpg" alt="" />
+    <img src="foto4.jpg" alt=" />
+  </section>
+
+  <footer>
+    <p>Feito por Davizinho gameplays kskssk</p>
+  </footer>
+</body>
+</html>
